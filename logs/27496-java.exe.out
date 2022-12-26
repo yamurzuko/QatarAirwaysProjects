@@ -1,0 +1,57 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 4842milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4842"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pickTheIstanbul' and 'StepImplementation.pickTheIstanbul'"}
+{"logLevel":"debug","message":"Found Varış Havaalanı 'Istanbul' Seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectBookTab' and 'StepImplementation.selectBookTab'"}
+{"logLevel":"debug","message":"Found Ana Menüden 'Book' Tabına Basılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySecond' and 'StepImplementation.waitBySecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pickTheDate' and 'StepImplementation.pickTheDate'"}
+{"logLevel":"debug","message":"Found Bugünün Tarihinden Sonraki 7. gün Seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkIsTheAppOpen' and 'StepImplementation.checkIsTheAppOpen'"}
+{"logLevel":"debug","message":"Found Uygulamanın Açıldığının Kontrolü Yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.AcceptNotifications' and 'StepImplementation.AcceptNotifications'"}
+{"logLevel":"debug","message":"Found Location Bildirimi Skip Butonuna Basılarak Geçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pickTheBerlin' and 'StepImplementation.pickTheBerlin'"}
+{"logLevel":"debug","message":"Found Kalkış Havaalanı 'Berlin' Seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectTheType' and 'StepImplementation.selectTheType'"}
+{"logLevel":"debug","message":"Found Seyahat Tipi 'One Way' Seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.skipTheEnterance' and 'StepImplementation.skipTheEnterance'"}
+{"logLevel":"debug","message":"Found Karşılama Ekranı Skip Butonuna BasılaraK Geçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.allowTheNotifications' and 'StepImplementation.allowTheNotifications'"}
+{"logLevel":"debug","message":"Found Bildirimleri Kabul Etmek için 'Allow' Butonuna Basılır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKalkış Havaalanı 'Berlin' Seçilir : public void pickTheBerlin()"}
+{"logLevel":"debug","message":"\tUygulamanın Açıldığının Kontrolü Yapılır : public void checkIsTheAppOpen()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySecond(int i) throws InterruptedException"}
+{"logLevel":"debug","message":"\tKarşılama Ekranı Skip Butonuna BasılaraK Geçilir : public void skipTheEnterance()"}
+{"logLevel":"debug","message":"\tBildirimleri Kabul Etmek için 'Allow' Butonuna Basılır : public void allowTheNotifications()"}
+{"logLevel":"debug","message":"\tSeyahat Tipi 'One Way' Seçilir : public void selectTheType()"}
+{"logLevel":"debug","message":"\tLocation Bildirimi Skip Butonuna Basılarak Geçilir : public void AcceptNotifications()"}
+{"logLevel":"debug","message":"\tBugünün Tarihinden Sonraki 7. gün Seçilir : public void pickTheDate()"}
+{"logLevel":"debug","message":"\tAna Menüden 'Book' Tabına Basılır : public void selectBookTab()"}
+{"logLevel":"debug","message":"\tVarış Havaalanı 'Istanbul' Seçilir : public void pickTheIstanbul()"}
+{"logLevel":"debug","message":"started gRPC server on port 50615"}
+{"logLevel":"info","message":"Listening on port:50615"}
+2022-12-26 17:09:14,820 +03:00 INFO  b.BaseTest:26 beforeScenario - !!!!!!!!!!! Localde test başlıyor !!!!!!!!!!
+2022-12-26 17:09:14,824 +03:00 INFO  b.BaseTest:29 beforeScenario - !!!!!!!!!!! Localde Android  testi başlıyor !!!!!!!!!!
+Dec 26, 2022 5:09:29 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Uygulamanın Açıldığının Kontrolü Yapılır' using 'class StepImplementation.checkIsTheAppOpen"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Bildirimleri Kabul Etmek için 'Allow' Butonuna Basılır' using 'class StepImplementation.allowTheNotifications"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Ana Menüden 'Book' Tabına Basılır' using 'class StepImplementation.selectBookTab"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

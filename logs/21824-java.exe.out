@@ -1,0 +1,47 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 5406milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 5406"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pickTheIstanbul' and 'StepImplementation.pickTheIstanbul'"}
+{"logLevel":"debug","message":"Found {}{} Varış havalimanı {} Seçilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pickTheDate' and 'StepImplementation.pickTheDate'"}
+{"logLevel":"debug","message":"Found Bugünün Tarihinden Sonraki 7. gün Seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.allowTheNotifications' and 'StepImplementation.allowTheNotifications'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkIsTheAppOpen' and 'StepImplementation.checkIsTheAppOpen'"}
+{"logLevel":"debug","message":"Found {} id li element bulunur ve uygulamanın açıldığının kontrolü yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pickTheBerlin' and 'StepImplementation.pickTheBerlin'"}
+{"logLevel":"debug","message":"Found {}{} Kalkış havalimanı {} Seçilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectTheType' and 'StepImplementation.selectTheType'"}
+{"logLevel":"debug","message":"Found {} Seyahat Tipi 'One Way' Seçilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} id li element bulunur ve uygulamanın açıldığının kontrolü yapılır : public void checkIsTheAppOpen(String id)"}
+{"logLevel":"debug","message":"\t{} Seyahat Tipi 'One Way' Seçilir : public void selectTheType(String xpath)"}
+{"logLevel":"debug","message":"\t{} id li elemente tıklanır : public void allowTheNotifications(String id)"}
+{"logLevel":"debug","message":"\tBugünün Tarihinden Sonraki 7. gün Seçilir : public void pickTheDate()"}
+{"logLevel":"debug","message":"\t{}{} Varış havalimanı {} Seçilir {} : public void pickTheIstanbul(String id, String id1, String text, String xpath)"}
+{"logLevel":"debug","message":"\t{}{} Kalkış havalimanı {} Seçilir {} : public void pickTheBerlin(String id, String id1, String text, String xpath)"}
+{"logLevel":"debug","message":"started gRPC server on port 55528"}
+{"logLevel":"info","message":"Listening on port:55528"}
+2022-12-26 18:18:40,789 +03:00 INFO  b.BaseTest:48 setup - !!!!!!!!!!! Localde test başlıyor !!!!!!!!!!
+2022-12-26 18:18:40,793 +03:00 INFO  b.BaseTest:51 setup - !!!!!!!!!!! Localde Android  testi başlıyor !!!!!!!!!!
+Dec 26, 2022 6:18:55 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} id li element bulunur ve uygulamanın açıldığının kontrolü yapılır' using 'class StepImplementation.checkIsTheAppOpen"}
+2022-12-26 18:18:59,086 +03:00 INFO  b.BaseMethods:45 isElementVisible - Uygulama Açıldı.
+2022-12-26 18:18:59,103 +03:00 INFO  p.HomePage:23 checkOpenApp - Pass
+{"logLevel":"debug","message":"Executing '{} id li elemente tıklanır' using 'class StepImplementation.allowTheNotifications"}
+2022-12-26 18:18:59,250 +03:00 INFO  p.HomePage:32 clickStepButton - Element Bulundu ve Tıklandı.
+{"logLevel":"debug","message":"Executing '{} id li elemente tıklanır' using 'class StepImplementation.allowTheNotifications"}
+2022-12-26 18:18:59,843 +03:00 INFO  p.HomePage:34 clickStepButton - Elemente tıklanamadı.
+{"logLevel":"debug","message":"Executing '{} Seyahat Tipi 'One Way' Seçilir' using 'class StepImplementation.selectTheType"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

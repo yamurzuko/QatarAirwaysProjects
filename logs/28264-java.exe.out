@@ -1,0 +1,43 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2868milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2868"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'page.FlyPage.clickStepButton' and 'page.FlyPage.clickStepButton'"}
+{"logLevel":"debug","message":"Found {} xpath li elemente tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'page.FlyPage.selectFlightDate' and 'page.FlyPage.selectFlightDate'"}
+{"logLevel":"debug","message":"Found Bugünün tarihi +7 gün seçilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'page.FlyPage.randomSelectFly' and 'page.FlyPage.randomSelectFly'"}
+{"logLevel":"debug","message":"Found {} 'li uçuşlardan rastgele seç ve {} ile {} değerlerini kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'page.FlyPage.lastDataFlyHours' and 'page.FlyPage.lastDataFlyHours'"}
+{"logLevel":"debug","message":"Found {} ile {} sondaki uçuş saatleri verileri in current project scope."}
+{"logLevel":"debug","message":"Comparing 'page.HomePage.clickStepButton' and 'page.HomePage.clickStepButton'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'page.FlyPage.sendKeyById' and 'page.FlyPage.sendKeyById'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıkla {} değerini gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'page.HomePage.checkOpenApp' and 'page.HomePage.checkOpenApp'"}
+{"logLevel":"debug","message":"Found {} id li element bulunur ve görünür mü kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBugünün tarihi +7 gün seçilir. : public void selectFlightDate()"}
+{"logLevel":"debug","message":"\t{} id li element bulunur ve görünür mü kontrol edilir : public void checkOpenApp(String id)"}
+{"logLevel":"debug","message":"\t{} id li elemente tıklanır : public void clickStepButton(String id)"}
+{"logLevel":"debug","message":"\t{} xpath li elemente tıklanır : public void clickStepButton(String xpath)"}
+{"logLevel":"debug","message":"\t{} id li elemente tıkla {} değerini gir : public void sendKeyById(String id, String text)"}
+{"logLevel":"debug","message":"\t{} 'li uçuşlardan rastgele seç ve {} ile {} değerlerini kaydet : public void randomSelectFly(String xpath, String departurePath, String arrivalPath)"}
+{"logLevel":"debug","message":"\t{} ile {} sondaki uçuş saatleri verileri : public void lastDataFlyHours(String departurePath, String arrivalPath)"}
+{"logLevel":"debug","message":"started gRPC server on port 61640"}
+{"logLevel":"info","message":"Listening on port:61640"}
+2022-12-26 21:22:21,618 +03:00 INFO  b.BaseTest:30 setup - !!!!!!!!!!! Localde test başlıyor !!!!!!!!!!
+2022-12-26 21:22:21,622 +03:00 INFO  b.BaseTest:33 setup - !!!!!!!!!!! Localde Android  testi başlıyor !!!!!!!!!!
+Dec 26, 2022 9:22:34 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} id li element bulunur ve görünür mü kontrol edilir' using 'class page.HomePage.checkOpenApp"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,39 @@
+Created by testinium on 12/26/2022
+
+This is a concept file with following syntax for each concept.
+# Uygulamanın acıldığı kontrol edilir.
+* "com.m.qr:id/push_consent_msg_header" id li element bulunur ve görünür mü kontrol edilir
+# Bildirim ekrani Allow secenegi ile gecilir.
+* "com.m.qr:id/push_consent_allow" id li elemente tıklanır
+# Alt menuden Book tabina gecis yapilir.
+* "com.m.qr:id/nav_menu_book" id li elemente tıklanır
+# Seyehat tipi olarak One Way secilir.
+* "//android.widget.LinearLayout[@content-desc='One-way']/android.widget.TextView" xpath li elemente tıklanır
+# Kalkis havaalani olarak Berlin secilir.
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder" xpath li elemente tıklanır
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" id li elemente tıkla "Berlin" değerini gir
+* "(//*[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_iata_code_and_airport_name'])[1]" xpath li elemente tıklanır
+# Varis havaalani olarak Istanbul secilir.
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_destination_holder" xpath li elemente tıklanır
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" id li elemente tıkla "Istanbul" değerini gir
+* "(//*[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_iata_code_and_airport_name'])[3]" xpath li elemente tıklanır
+# (Bugunun tarihi + 7 gün) olarak bir gidis tarihi secilir.
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_departure_date_holder" id li elemente tıklanır
+* "(//android.widget.TextView[@clickable='true'])[1]" xpath li elemente tıklanır
+* Bugünün tarihi +7 gün seçilir.
+* "com.m.qr:id/fragment_calendar_confirm_button" id li elemente tıklanır
+# Economy class secenegine tiklanir
+* "com.m.qr:id/fragment_rtow_flight_cabin_class_text_view" id li elemente tıklanır
+* "//android.widget.TextView[@text='Economy']" xpath li elemente tıklanır
+* "//android.widget.TextView[@text='Economy']" xpath li elemente tıklanır
+* "//android.widget.Button[@text='Search flights']" xpath li elemente tıklanır
+# Ucus secim ekranının geldiği kontrol edilir
+* "com.m.qr:id/rvmp_fare_message" id li element bulunur ve görünür mü kontrol edilir
+# Rastgele bir ucus secilir.
+* "//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup" 'li uçuşlardan rastgele seç ve "android.widget.TextView[1]" ile "android.widget.TextView[2]" değerlerini kaydet
+# Ucus secim ekranındaki ucus saati ile ucus detayları ekranındaki ucus saati değeri aynı mı kontrol edilir
+* "//android.widget.TextView[@text='Flight details']" xpath li elemente tıklanır
+* "//android.view.ViewGroup[1]/android.widget.TextView[@resource-id='com.m.qr:id/rvmp_item_flight_details_start_time']" ile "//android.view.ViewGroup[2]/android.widget.TextView[@resource-id='com.m.qr:id/rvmp_item_flight_details_end_time']" sondaki uçuş saatleri verileri
+
+
+
